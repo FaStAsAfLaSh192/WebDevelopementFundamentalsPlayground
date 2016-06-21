@@ -2,10 +2,134 @@
 <html>
 	<head>
 		<title>Javascript Playground</title>
-
+		<link rel="stylesheet" type="text/css" href="../css/main.css">
 	</head>
 	<body>
+	<div class="nav">
+		<ul>
+			<li><a class-"default" href="../index.html">Home</a></li>
+			<li><a href="html-playground.html">HTML</a></li>
+			<li><a href="CSS-playground.html">CSS</a></li>
+			<li><a href="Bootstrap-playground.html">Bootstrap</a></li>
+			<li><a href="Javascript-playground.html">Javascript</a></li>
+			<li><a href="jQuery-playground.html">jQuery</a></li>
+			<li><a href="Git-playground.html">Git</a></li>
+			<li><a href="Resources-playground.html">Resources</a></li>
+
+		</ul>
+	</div>
 		<h1>Javascript items</h1>
-		
+	
+		<h2>Age</h2>
+		<p>My age is <a id="my-age"></a>.</p>
+
+		<h2>Graduation</h2>
+		<p>I will graduate in <a id="my-graduation"></a></p>
+
+		<h2>Birth</h2>
+		<p>I was born in <a id="my-birth-year"></a></p>
+
+		<h2>Brothers and Sisters</h2>
+		<p>I have <a id="brothers-and-sisters"></a> brothers and sisters</p>
+
+		<h2>Kids</h2>
+		<p>I have <a id="kids"></a> kids</p>
+
+<button onclick="myFunction()">Do NOT click ze button</button>
+
+<p id="button"></p>
+
+<script>
+function myFunction() {
+    document.getElementById("button").innerHTML = "YOU CLICKED THE BUTTON OH NO!";
+}
+</script>
+
+<!-- First TTF-->
+<h2>I usually carry a switchblade as my EDC knife</h2>
+
+<button onclick="myFunction1()">Truth or False?</button>
+
+<p id="button1"></p>
+
+<script>
+function myFunction1() {
+    document.getElementById("button1").innerHTML = "False";
+}
+</script>
+
+
+<!-- Second TTF -->
+<h2>I took spanish classes during 4 school years</h2>
+
+<button onclick="myFunction2()">Truth or False?</button>
+
+<p id="button2"></p>
+
+<script>
+function myFunction2() {
+    document.getElementById("button2").innerHTML = "True";
+}
+</script>
+
+<!-- Third TTF -->
+
+<h2>I have 5 drawers where I store my clothes at at home.</h2>
+
+<button onclick="myFunction3()">Truth or False?</button>
+
+<p id="button3"></p>
+
+<script>
+function myFunction3() {
+    document.getElementById("button3").innerHTML = "True";
+}
+</script>
+
+<!-- Functions again -->
+
+	<h4>One of the band's I like:</h4>
+
+<button onclick="myFunction4()">Click zis</button>
+
+<p id="button4"></p>
+
+<script>
+function myFunction4() {
+    document.getElementById("button4").innerHTML = "Skillet";
+}
+</script>
+
+
+	<h4>What do you think is the worst song ever?</h4>
+
+<button onclick="myFunction5()">Click zis</button>
+
+<p id="button5"></p>
+
+<script>
+function myFunction5() {
+    document.getElementById("button5").innerHTML = "Whatever the he** that song is with the word's 'Cut it' in it";
+}
+</script>
+
+
+	<h4>What do I think is the Best song of all time?</h4>
+
+<button onclick="myFunction6()">Click zis</button>
+
+<p id="button6"></p>
+
+<script>
+function myFunction6() {
+    document.getElementById("button6").innerHTML = "No idea, but im going to say Everything is Awesome off of the Lego Movie";
+}
+</script>
+
+
+
+
+
+		<script src="../js/scripts.JS"></script>
 	</body>
 </html>
