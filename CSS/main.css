@@ -34,6 +34,9 @@ h1 {
 .nav li a:hover{
 	background-color: 111;
 }
+
+
+
 /* Smiley Face CSS */
 .face {
   width: 75px;
@@ -213,3 +216,94 @@ h1 {
     display: inline-block;
     font-size: 16px;
 }
+
+
+#fadeInHelloWorld {
+  width:100px;
+  height:20px;
+  display:none;
+  background-color:red;
+}
+
+/*shapes styling*/
+
+#circle {
+  width: 100px;
+  height: 100px;
+  border: 2px solid black;
+  border-radius: 50px;
+  margin: 20px 0px 0px 20px;
+  position: absolute;
+}
+
+#color-square {
+  width: 100px;
+  height: 100px;
+  border: 2px solid black;
+  border-radius: 0px;
+  position: absolute;
+  margin: 20px 0px 0px 150px
+}
+
+#color-square {
+  border-style: solid;
+  border-color: red green blue yellow;
+}
+
+#color-square-2 {
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  margin: 20px 0px 0px 150px;
+  border-top: 50px solid blue;
+  border-left: 50px solid green;
+  border-bottom: 50px solid red;
+  border-right: 50px solid yellow;
+  margin: 20px 0px 0px 300px;
+}
+
+#triangle {
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  margin: 20px 0px 0px 150px;
+  border-top: 50px solid transparent;
+  border-left: 50px solid transparent;
+  border-bottom: 50px solid red;
+  border-right: 50px solid transparent;
+  margin: 20px 0px 0px 560px;
+}
+
+#triangle-2 {
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  margin: 20px 0px 0px 150px;
+  border-top: 0px solid black;
+  border-left: 50px solid transparent;
+  border-bottom: 100px solid red;
+  border-right: 50px solid transparent;
+  margin: 20px 0px 0px 680px;
+}
+
+.triangle-border {
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid red;
+  margin: 20px 0px 0px 820px;
+}
+
+.inner-triangle {
+  top: 24px;
+  right: 26px;
+  width: 0px;
+  height: 0px;
+  position: relative;
+  border-left: 26px solid transparent;
+  border-right: 26px solid transparent;
+  border-bottom: 60px solid blue;
+}
+
